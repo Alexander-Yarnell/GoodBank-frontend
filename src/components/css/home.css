@@ -1,0 +1,28 @@
+.bg {
+  background-image: url(../Bank.jpg) no-repeat center center fixed;
+  width: 100%;
+  height: 100vh;
+  content: "";
+}
+
+.filter {
+  position: absolute;
+  height: 100%;
+  width: 20rem;
+  background-color: rgba(255, 255, 255,0.75);
+  display:grid;
+  justify-content:center;
+  align-items:center;
+}
+
+.card {
+  position: relative;
+  height: 300px;
+}
+
+.card-buttons{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
